@@ -19,20 +19,20 @@ var paths = {
         www:        ''
     },
     src: {
-        root:       './assets',
-        html:       './**/*.html',
-        css:        './assets/css/*.css',
-        js:         './assets/js/*.js',
-        vendors:    './assets/vendors/**/*.*',
-        imgs:       './assets/imgs/**/*.+(png|jpg|gif|svg)',
-        scss:       './assets/scss/**/*.scss'
+        root:       '/assets',
+        html:       '/**/*.html',
+        css:        '/assets/css/*.css',
+        js:         '/assets/js/*.js',
+        vendors:    '/assets/vendors/**/*.*',
+        imgs:       '/assets/imgs/**/*.+(png|jpg|gif|svg)',
+        scss:       '/assets/scss/**/*.scss'
     },
     dist: {
-        root:       './dist',
-        css:        './dist/css',
-        js:         './dist/js',
-        imgs:       './dist/imgs',
-        vendors:    './dist/vendors'
+        root:       '/dist',
+        css:        '/dist/css',
+        js:         '/dist/js',
+        imgs:       '/dist/imgs',
+        vendors:    '/dist/vendors'
     }
 }
 
