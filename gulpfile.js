@@ -16,7 +16,7 @@ const clean         = require('gulp-clean');
 // Paths
 var paths = {
     root: { 
-        www:        ''
+        www:        '.'
     },
     src: {
         root:       'assets',
